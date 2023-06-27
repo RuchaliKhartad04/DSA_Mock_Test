@@ -36,6 +36,6 @@ def moveZeroes(nums):
     return nums
 
 
-input_str = input("Enter the array elements separated by spaces: ")
+input_str = input()#Enter the array elements separated by spaces:
 nums1 = list(map(int, input_str.split()))
 print(moveZeroes(nums1)) 
